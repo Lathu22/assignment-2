@@ -1,0 +1,47 @@
+<!--
+	Name: lathurshan
+	File: assignment 2  part 1.html
+	Date: 3 feb 2024
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozilla Splash Page</title>
+    <style>
+        /* Your CSS styles */
+    </style>
+</head>
+<body>
+    <header>
+        <img src="firefoxlogo120.png" alt="Mozilla Firefox Logo">
+        <!-- Rest of the header content -->
+    </header>
+
+    <main>
+        <article>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allowfullscreen></iframe>
+            <!-- Rest of the article content -->
+        </article>
+
+        <div class="further-info">
+            <a href="link-to-mdn">
+                <img src="mdn.svg" alt="Mozilla Developer Network" srcset="mdn.svg 120w, mdn.svg 400w" sizes="(max-width: 500px) 120px, 400px">
+            </a>
+            <!-- Repeat for other links with appropriate images and attributes -->
+        </div>
+
+        <div class="red-panda">
+            <picture>
+                <source media="(max-width: 600px)" srcset="redpanda600.jpg">
+                <img src="redpanda1200.jpg" alt="Red Panda">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
