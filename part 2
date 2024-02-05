@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets Data Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th:first-child {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Solar System Planets Data</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Planet Name</th>
+                <th>Diameter (km)</th>
+                <th>Mass (10^24kg)</th>
+                <th>Distance from Sun (10^6 km)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Terrestrial Planets</th>
+                <th scope="row">Mercury</th>
+                <td>4,879</td>
+                <td>0.330</td>
+                <td>57.9</td>
+            </tr>
+            <tr>
+                <th scope="row">Venus</th>
+                <td>12,104</td>
+                <td>4.87</td>
+                <td>108.2</td>
+            </tr>
+            <tr>
+                <th scope="row">Earth</th>
+                <td>12,742</td>
+                <td>5.97</td>
+                <td>149.6</td>
+            </tr>
+            <tr>
+                <th scope="row">Mars</th>
+                <td>6,779</td>
+                <td>0.642</td>
+                <td>227.9</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Jovian Planets</th>
+                <th scope="row">Jupiter</th>
+                <td>139,820</td>
+                <td>1,898</td>
+                <td>778.6</td>
+            </tr>
+            <tr>
+                <th scope="row">Saturn</th>
+                <td>116,460</td>
+                <td>568</td>
+                <td>1,433.5</td>
+            </tr>
+            <tr>
+                <th scope="row">Uranus</th>
+                <td>50,724</td>
+                <td>86.8</td>
+                <td>2,872.5</td>
+            </tr>
+            <tr>
+                <th scope="row">Neptune</th>
+                <td>49,244</td>
+                <td>102</td>
+                <td>4,495.1</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
